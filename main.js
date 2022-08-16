@@ -210,7 +210,7 @@ def bas(update, context):
     elif c=="👫 Refer And Earn":
         reply_markup = ReplyKeyboardMarkup(dash_key,resize_keyboard=True)
         user = str(update.effective_user.id)
-        msg = 'http://t.me/Jeja_jw_Bot={}'.format(data['id'][user])
+        msg = 'https://t.me/Cashwala_bot?start={}'.format(data['id'][user])
         update.message.reply_text("🙋‍♂ Hello\n\n""Here u will get ur Referral Link which u can share to Your Friends and start Earning Unlimited Paytm cash\n\n""Link - {}".format(msg),reply_markup=reply_markup)
         return BAS
     elif c=="📘 Daily Quiz":

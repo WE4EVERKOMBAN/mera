@@ -15,7 +15,7 @@ import paytmchecksum
 from captcha.image import ImageCaptcha
 import string
 BAS,DAD,FI,FA,FS,FB,FC,BAG,HAM,AB,HA,HB= range(12)
-TOKEN = "5401083533:AAHPjAQlOZ3OKYKnNVszEnNG6vbFDirtUxg"
+TOKEN = "5595042359:AAE9km-wR8h2YxnBatu4TiHHlWWEjSKnZmA"
 refr = [0.1]
 dci=[0.1]
 wmin=[1.0]
